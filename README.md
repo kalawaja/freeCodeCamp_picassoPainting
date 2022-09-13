@@ -909,7 +909,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 75** <br>
-
+Adjust the layout of the `triangle` elements with a `display` of `inline-block`.
 
 ```css
 #styles.css
@@ -926,7 +926,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 76** <br>
-
+Now use an `id` selector for `guitar`. Set the `width` to `100%`, and the `height` to `100px`.
 
 ```css
 #styles.css
@@ -936,7 +936,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 77** <br>
-
+In the same `#guitar` selector, set the `position` to `absolute`, the `top` to `120px`, and the `left` to `0px`.
 
 ```css
 #styles.css
@@ -949,7 +949,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 78** <br>
-
+Give the `#guitar` rule a `z-index` of `3`.
 
 ```css
 #styles.css
@@ -963,7 +963,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 79** <br>
-
+Now use a `class` selector to target `guitar`. This will style the two "halves" of your guitar. Set the `width` to `150px`, the `height` to `120px`, the `background-color` to `Goldenrod`, and the `border-radius` to `50%`.
 
 ```css
 #styles.css
@@ -975,7 +975,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 80** <br>
-
+Select the `id` with value `guitar-left`, and set the `position` to `absolute` and the `left` to `0px`.
 
 ```css
 #styles.css
@@ -986,7 +986,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 ```
 
 > **Step 81** <br>
-
+Select the `id` with value `guitar-right`, and also set `position` to `absolute`. This time, set `left` to `100px`.
 
 ```css
 #styles.css
@@ -996,7 +996,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 82** <br>
-
+Now you need to move the bar icons into place. Create a `class` selector for the `fa-bars` class. Set the `display` to `block`, the `margin-top` to `30%`, and the `margin-left` to `40%`.
 
 ```css
 #styles.css
@@ -1007,7 +1007,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 83** <br>
-
+Use an `id` selector to create a `guitar-neck` rule. Set the `width` to `200px`, the `height` to `30px`, and the `background-color` to `#D2691E`.
 
 ```css
 #styles.css
@@ -1018,7 +1018,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 84** <br>
-
+Now move the `guitar-neck` with a `position` of `absolute`, a `top` value of `45px`, and a `left` value of `200px`.
 
 ```css
 #styles.css
@@ -1032,7 +1032,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 85** <br>
-
+Give the `guitar-neck` a `z-index` of `3`.
 
 ```css
 #styles.css
@@ -1047,7 +1047,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 86** <br>
-
+Time to style your `eyes` elements. Use a `class` selector to set the `width` to `35px`, the `height` to `20px`, the `background-color` to `#8B4513`, and the `border-radius` to `20px` `50%`.
 
 ```css
 #styles.css
@@ -1059,7 +1059,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 87** <br>
-
+Target the `class` with value `right` and set the `position` to `absolute`, `top` to `15px`, and `right` to `30px`.
 
 ```css
 #styles.css
@@ -1071,7 +1071,7 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 ```
 
 > **Step 88** <br>
-
+For the `class` with value `left`, create the selector and set the `position` to `absolute`, the `top` to `15px`, and the `left` to `30px`.
 
 ```css
 #styles.css
@@ -1082,7 +1082,8 @@ Give your `triangle` elements the correct color. Set the `border-top-color`, `bo
 }
 ```
 > **Step 89** <br>
-
+One last step. The FontAwesome icons are a little too small. Target all of them with a `class` selector for `fas`, and set the `font-size` to `30px`.<br><br>
+With that, your Picasso painting is complete!
 
 ```css
 #styles.css

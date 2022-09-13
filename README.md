@@ -488,7 +488,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 42** <br>
-
+Just like with your `white-hat`, you should style the border for the `black-hat` element. Give it a `border-top-color`, `border-right-color`, and `border-bottom-color` of `transparent`. Set the `border-left-color` to `rgb(45, 31, 19)`.
 
 ```css
 #styles.css
@@ -504,7 +504,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 43** <br>
-
+Now position the `black-hat` element. Give it a `position` of `absolute`, with a `top` of `-150px` and a `left` of `0`.
 
 ```css
 #styles.css
@@ -523,7 +523,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 44** <br>
-
+Using an `id` selector, style the `gray-mask` element. Give it a `width` of `150px`, a `height` of `150px`, and a `background-color` of `rgb(167, 162, 117)`.
 
 ```css
 #styles.css
@@ -535,7 +535,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 45** <br>
-
+Position the `gray-mask` by setting `position` to `absolute`, the `top` to `-10px`, and the `left` to `70px`.
 
 ```css
 #styles.css
@@ -549,7 +549,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 46** <br>
-
+Using an `id` selector, create a rule for the `white-paper` element. Set the `width` to `400px`, the `height` to `100px`, and the `background-color` to `GhostWhite`.
 
 ```css
 #styles.css
@@ -560,7 +560,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 47** <br>
-
+Give the `white-paper` a `position` of `absolute`, a `top` of `250px`, and a `left` of `-150px` to move it into place.
 
 ```css
 #styles.css
@@ -574,7 +574,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 48** <br>
-
+Set the `z-index` of the `white-paper` to `1`.
 
 ```css
 #styles.css
@@ -589,7 +589,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 49** <br>
-
+FontAwesome icons come with their own styling to define the icon. However, you can still set the styling yourself as well, to change things like the color and size. For now, use a `class` selector to target your `fa-music` icons. Set the `display` to `inline-block`, the `margin-top` to `8%`, and the `margin-left` to `13%`.
 
 ```css
 #styles.css
@@ -600,7 +600,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 50** <br>
-
+Below your `black-character` element, add two new `div` elements. These will be the shawl. Give both of them a `class` of `blue`. Then give the first one an `id` of `blue-left`, and the second an `id` of `blue-right`.
 
 ```css
 #styles.css
@@ -608,7 +608,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
       <div class="blue" id="blue-right"></div>
 ```
 > **Step 51** <br>
-
+Use a `class` selector to target your new `blue` elements. Set the `background-color` to `#1E90FF`.
 
 ```css
 #styles.css
@@ -617,7 +617,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 52** <br>
-
+Select the `blue-left` element with an `id` selector. Give it a `width` of `500px` and a `height` of `300px`.
 
 ```css
 #styles.css
@@ -627,7 +627,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 53** <br>
-
+Now set the `position` to `absolute`, the `top` to `20%`, and the `left` to `20%`.
 
 ```css
 #styles.css
@@ -640,7 +640,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 54** <br>
-
+Next, target your `blue-right` element with an `id` selector. Set the `width` to `400px` and the `height` to `300px`.
 
 ```css
 #styles.css
@@ -650,7 +650,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 55** <br>
-
+Give the `blue-right` the correct positioning with `position` set to `absolute`, top set to `50%`, and `left` set to `40%`.
 
 ```css
 #styles.css
@@ -663,14 +663,14 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 56** <br>
-
+Below your `blue` elements, add another `div`. Give it the `id` value of `orange-character`.
 
 ```css
 #styles.css
       <div id="orange-character"></div>
 ```
 > **Step 57** <br>
-
+Within that `orange-character` element, add four `div` elements. Give them the `id` values of `black-round-hat`, `eyes-div`, `triangles`, and `guitar`, in order.
 
 ```css
         <div id="black-round-hat"></div>
@@ -679,7 +679,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
         <div id="guitar"></div>
 ```
 > **Step 58** <br>
-
+The `eyes-div` element should hold some eyes. Add two `div` elements inside. Give the first a `class` of `eyes left`, and give the second a `class` of `eyes right`.
 
 ```css
 #styles.css
@@ -687,7 +687,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
           <div class="eyes right"></div>
 ```
 > **Step 59** <br>
-
+Within the `triangles` div, you will need to add the elements that will become your triangles. Create thirty `div` elements and give each of them the class `triangle`.
 
 ```css
 #styles.css
@@ -723,7 +723,8 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
           <div class="triangle"></div>
 ```
 > **Step 60** <br>
-
+Within the `guitar` element, create three `div` elements. Give the first two a `class` value of `guitar`. Then give the first an `id` of `guitar-left`, and the second an `id` of `guitar-right`. Add an `id` to the third `div` with the value `guitar-neck`.<br>
+The third `div` should not have the `guitar` class.
 
 ```css
 #styles.css
@@ -732,7 +733,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
           <div id="guitar-neck"></div>
 ```
 > **Step 61** <br>
-
+Use another FontAwesome icon for your `guitar`. Inside both the `guitar-left` and `guitar-right` elements, add an `i` element and give it a `class` of `fas fa-bars`.
 
 ```css
 #styles.css
@@ -744,7 +745,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
           </div>
 ```
 > **Step 62** <br>
-
+Select your `orange-character` element with an `id` selector. Give it a `width` of `250px`, a `height` of `550px`, and a `background-color` of `rgb(240, 78, 42)`.
 
 ```css
 #styles.css
@@ -755,7 +756,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 63** <br>
-
+Give the `orange-character` a `position` of `absolute`, a `top` of `25%`, and a `left` of `40%`.
 
 ```css
 #styles.css
@@ -769,7 +770,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 64** <br>
-
+Style your `black-round-hat` element with an `id` selector. Set the `width` to `180px`, the `height` to `150px`, and the `background-color` to `rgb(45, 31, 19)`.
 
 ```css
 #styles.css
@@ -780,7 +781,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 65** <br>
-
+The `black-round-hat` should probably be round. Give it a `border-radius` of `50%` to fix this.
 
 ```css
 #styles.css
@@ -792,7 +793,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 66** <br>
-
+Move the `black-round-hat` into place with a `position` of `absolute`, a `top` of `-100px`, and a `left` of `5px`.
 
 ```css
 #styles.css
@@ -807,7 +808,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 67** <br>
-
+Put the `black-round-hat` on the correct layer with a `z-index` of `-1`.
 
 ```css
 #styles.css
@@ -823,7 +824,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 68** <br>
-
+Use an `id` selector to create a rule for your `eyes-div` element. Set the `width` to `180px` and the `height` to `50px`.
 
 ```css
 #styles.css
@@ -833,7 +834,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 69** <br>
-
+Now move the `eyes-div` into position with `position` set to `absolute`, `top` set to `-40px`, and `left` set to `20px`.
 
 ```css
 #styles.css
@@ -846,7 +847,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 70** <br>
-
+Give the `eyes-div` a `z-index` of `3`.
 
 ```css
 #styles.css
@@ -860,7 +861,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 71** <br>
-
+Target your `triangles` element with an `id` selector. Set the `width` to `250px` and the `height` to `550px`.
 
 ```css
 #styles.css
@@ -870,7 +871,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 72** <br>
-
+Create a `class` selector for your `triangle` elements. Set the `width` to `0` and the `height` to `0`.
 
 ```css
 #styles.css
@@ -880,7 +881,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 73** <br>
-
+Style the border of your `triangle` elements. Set the `border-style` to `solid` and the `border-width` to `42px 45px 45px 0`.
 
 ```css
 #styles.css
@@ -892,7 +893,7 @@ Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 }
 ```
 > **Step 74** <br>
-
+Give your `triangle` elements the correct color. Set the `border-top-color`, `border-bottom-color`, and `border-left-color` to `transparent`. Set the `border-right-color` to `Gold`.
 
 ```css
 #styles.css

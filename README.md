@@ -185,7 +185,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 18** <br>
-
+Using an `id` selector, style your `white-hat` element. Give it a `width` and `height` of `0`, and a `border-style` of `solid`.
 
 ```css
 #styles.css
@@ -196,7 +196,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 19** <br>
-
+That does not look quite right. Set a `border-width` of `0 120px 140px 180px` to size the hat properly.
 
 ```css
 #styles.css
@@ -208,7 +208,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 20** <br>
-
+Now you have a large box. Give it a `border-top-color`, `border-right-color`, and `border-left-color` of `transparent`. Set the `border-bottom-color` to `GhostWhite`. This will make it look more like a hat.
 
 ```css
 #styles.css
@@ -224,7 +224,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 21** <br>
-
+Give the hat a `position` of `absolute`, a `top` value of `-140px`, and a `left` value of `0`.
 
 ```css
 #styles.css
@@ -243,7 +243,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 22** <br>
-
+Using an `id` selector, create a rule for your `black-mask` element. Give it a `width` of `100%`, a `height` of `50px`, and a `background-color` of `rgb(45, 31, 19)`.
 
 ```css
 #styles.css
@@ -254,7 +254,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 23** <br>
-
+Give the mask a `position` of `absolute`, and a `top` and `left` value of `0`.
 
 ```css
 #styles.css
@@ -268,7 +268,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 24** <br>
-
+To ensure you can see the mask, give it a `z-index` of `1`.
 
 ```css
 #styles.css
@@ -283,7 +283,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 25** <br>
-
+Using an `id` selector, give your `gray-instrument` element a `width` of `15%`, a `height` of `40%`, and a `background-color` of `rgb(167, 162, 117)`.
 
 ```css
 #styles.css
@@ -294,7 +294,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 26** <br>
-
+Now move it into place with a `position` of `absolute`, a `top` value of `50px`, and a `left` value of `125px`.
 
 ```css
 #styles.css
@@ -308,7 +308,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 27** <br>
-
+Set the `z-index` to `1`.
 
 ```css
 #styles.css
@@ -323,7 +323,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 28** <br>
-
+Use a class selector to create a rule for the `black-dot` elements. Set the `width` to `10px`, the `height` to `10px`, and the `background-color` to `rgb(45, 31, 19)`.
 
 ```css
 #styles.css
@@ -334,7 +334,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 29** <br>
-
+These dots are just a little too square. Give the `black-dot` class a `border-radius` of `50%` to fix it.
 
 ```css
 #styles.css
@@ -346,7 +346,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 30** <br>
-
+Move the dots into place by setting the `display` to `block`, the `margin` to `auto`, and the `margin-top` to `65%`.
 
 ```css
 #styles.css
@@ -361,7 +361,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 31** <br>
-
+Use an id selector to style your `tan-table` element. Give it a `width` of `450px`, a `height` of `140px`, and a `background-color` of `#D2691E`.
 
 ```css
 #styles.css
@@ -372,7 +372,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 32** <br>
-
+Move the table into place by giving it a `position` of `absolute`, a `top` value of `275px`, and a `left` value of `15px`.
 
 ```css
 #styles.css
@@ -386,7 +386,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 33** <br>
-
+Give the table a `z-index` of `1`.
 
 ```css
 #styles.css
@@ -401,14 +401,14 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 34** <br>
-
+After your `div#offwhite-character` element, add a `div` with the `id` of `black-character`.
 
 ```html
 #index.html
       <div id="black-character">
 ```
 > **Step 35** <br>
-
+Within your new `black-character` element, add three `div` elements with the following `id` values, in order: `black-hat`, `gray-mask`, `white-paper`.
 
 ```html
 #index.html
@@ -417,7 +417,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
         <div id="white-paper"></div>
 ```
 > **Step 36** <br>
-
+The mask needs eyes. Within your `gray-mask` element, add two `div` elements. The first should have the `class` set to `eyes left`, and the second should have the `class` set to `eyes right`.
 
 ```html
 #index.html
@@ -425,7 +425,10 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
           <div class="eyes right"></div>
 ```
 > **Step 37** <br>
-
+Time to use some FontAwesome icons.<br>
+The `i` element is used for idiomatic text, or text that is separate from the "normal" text content. This could be for italic text, such as scientific terms, or for icons like those provided by FontAwesome.<br>
+Within your `white-paper` element, add four `i` elements. Give them all a `class` value of `fas fa-music`.<br>
+This special class is how FontAwesome determines which icon to load. `fas` indicates the category of icons (FontAwesome Solid, here), while `fa-music` selects the specific icon.
 
 ```html
 #index.html
@@ -437,7 +440,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
         </div>
 ```
 > **Step 38** <br>
-
+Use an `id` selector to create a rule for your `black-character` element. Set the `width` to `300px`, the `height` to `500px`, and the `background-color` to `rgb(45, 31, 19)`.
 
 ```css
 #styles.css
@@ -448,7 +451,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 39** <br>
-
+Move the `black-character` element into place by setting the `position` to `absolute`, the `top` to `30%`, and the `left` to `59%`.
 
 ```css
 #styles.css
@@ -462,7 +465,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 40** <br>
-
+Use an `id` selector to create a rule for your `black-hat` element. Give it a `width` of `0`, a `height` of `0`, and a `border-style` of `solid`.
 
 ```css
 #styles.css
@@ -473,7 +476,7 @@ Move the `offwhite-character` into place by giving it a `position` of `absolute`
 }
 ```
 > **Step 41** <br>
-
+Set the `border-width` of the `black-hat` to `150px 0 0 300px`.
 
 ```css
 #styles.css

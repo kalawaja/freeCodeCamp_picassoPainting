@@ -5,7 +5,7 @@
 ---
 
 > **Step 1** <br>
-
+Start by setting up your HTML structure. Add a `<!DOCTYPE>` declaration and an `html` element with a `lang` attribute set to `en`. Within the `html` element, add a `head` element and a `body` element.
 
 ```html
 #index.html
@@ -16,7 +16,7 @@
 </html>
 ```
 > **Step 2** <br>
-
+Within your `head` element, add a `meta` tag with the `charset` attribute set to `utf-8`. Also add a `title` element with the text `Picasso Painting`.
 
 ```html
 #index.html
@@ -24,21 +24,23 @@
     <title>Picasso Painting</title>
 ```
 > **Step 3** <br>
-
+Go ahead and link your CSS file now, even though you have not written any CSS yet.<br>
+Add a `link` element with a `rel` of `stylesheet` and an `href` of `styles.css`.
 
 ```html
 #index.html
     <link rel="stylesheet" href="./styles.css">
 ```
 > **Step 4** <br>
-
+FontAwesome is a library of SVG-powered icons, many of which are freely available to use. You will be using some of these icons in this project, so you will need to link the external stylesheet to your HTML.<br>
+Add a `link` element with a `rel` of `stylesheet` and an `href` of `https://use.fontawesome.com/releases/v5.8.2/css/all.css`.
 
 ```html
 #index.html
     <link rel ="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 ```
 > **Step 5** <br>
-
+To get your painting started, give your `body` element a `background-color` of `rgb(184, 132, 46)`.
 
 ```css
 #styles.css
@@ -47,14 +49,14 @@ body {
 }
 ```
 > **Step 6** <br>
-
+Within your body tag, add a `div` element. Give it an `id` of `back-wall`.
 
 ```html
 #index.html
     <div id="back-wall"></div>
 ```
 > **Step 7** <br>
-
+Use an id selector to give the `back-wall` element a `background-color` of `#8B4513`.
 
 ```css
 #styles.css
@@ -63,7 +65,7 @@ body {
 }
 ```
 > **Step 8** <br>
-
+Give the `back-wall` element a `width` of `100%` and a `height` of `60%`.
 
 ```css
 #styles.css
@@ -74,7 +76,9 @@ body {
 }
 ```
 > **Step 9** <br>
-
+Typically, HTML is rendered in a top-down manner. Elements at the top of the code are positioned at the top of the page. However, many times you may want to move the elements to different positions. You can do this with the `position` property.<br>
+Set the `position` property for the `back-wall` element to `absolute`. An `absolute` position takes the element out of that top-down document flow and allows you to adjust it relative to its container.<br>
+When an element is manually positioned, you can shift its layout with `top`, `left`, `right`, and `bottom`. Set the `back-wall` to have a `top` value of `0`, and a `left` value of `0`.
 
 ```css
 #styles.css
@@ -88,9 +92,12 @@ body {
 }
 ```
 > **Step 10** <br>
+The `z-index` property is used to create "layers" for your HTML elements. If you are familiar with image editing tools, you may have worked with layers before. This is a similar concept.<br>
+Elements with a higher `z-index` value will appear to be layered on top of elements with a lower `z-index` value. This can be combined with the positioning in the previous lesson to create unique effects.<br>
+Since the `back-wall` element will need to appear "behind" the other elements you will be creating, give the `back-wall` element a `z-index` of `-1`.
 
-
-
+```css
+#styles.css
 #back-wall {
   background-color: #8B4513;
   width: 100%;
@@ -102,14 +109,14 @@ body {
 }
 ```
 > **Step 11** <br>
-
+Below your `back-wall` element, create a `div` with a `class` of `characters`. This is where you will be creating your painting's characters.
 
 ```html
 #index.html
     <div class="characters"></div>
 ```
 > **Step 12** <br>
-
+Inside that `characters` element, create another `div` with an `id` of `offwhite-character`.
 
 ```html
 #index.html
@@ -118,7 +125,7 @@ body {
     </div>
 ```
 > **Step 13** <br>
-
+Create four `div` elements inside your `offwhite-character` element. Give those `div` elements the following `id` values, in order: `white-hat`, `black-mask`, `gray-instrument`, `tan-table`.
 
 ```html
 #index.html
@@ -130,7 +137,7 @@ body {
       </div>
 ```
 > **Step 14** <br>
-
+This character needs eyes. Create two `div` elements in the `black-mask` element. Give them the classes `eyes left` and `eyes right`, in that order.
 
 ```html
 #index.html
@@ -140,7 +147,7 @@ body {
         </div>
 ```
 > **Step 15** <br>
-
+Create some "dots" for the instrument. Add five `div` elements within your `gray-instrument` element. Set the `class` of each to `black-dot`.
 
 ```html
 #index.html
@@ -153,7 +160,7 @@ body {
         </div>
 ```
 > **Step 16** <br>
-
+Using an `id` selector, create a rule for your `offwhite-character` element. Give it a `width` of `300px`, a `height` of `550px`, and a `background-color` of `GhostWhite`.
 
 ```css
 #styles.css
@@ -164,7 +171,7 @@ body {
 }
 ```
 > **Step 17** <br>
-
+Move the `offwhite-character` into place by giving it a `position` of `absolute`, a `top` value of `20%`, and a `left` value of `17.5%`.
 
 ```css
 #styles.css
